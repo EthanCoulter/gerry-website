@@ -4,8 +4,8 @@ import Typed from "react-typed";
 const Header = () => {
   return (
     <div className="flex flex-col items-center h-[100%] py-5">
-      <h1 className="text-6xl font-bold pb-5">Gerald Walsh</h1>
-      <h3 className=" text-2xl mb-6 w-[800px]">
+      <h1 className="text-4xl font-bold pb-5">Gerald Walsh</h1>
+      <h3 className=" text-sm mb-6 w-[475px]">
         Supporting clients to make the next step towards a life that is{" "}
         <span className="uppercase font-bold">
           <Typed

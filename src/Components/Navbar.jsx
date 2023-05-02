@@ -10,7 +10,7 @@ const Navbar = () => {
         return setNav(!nav)
     };
     return (
-        <div className=" flex justify-between items-center h-24  mx-auto px-4 text-white bg-slate-500">
+        <div className=" flex justify-between items-center h-24  mx-auto  text-white bg-slate-500">
             <h1 className="w-full drop-shadow-lg text-xl md:text-2xl lg:text-3xl font-bold text-white pointer-events-none ">Gerald Walsh Consulting</h1>
             <ul className="hidden text-xl md:flex">
                 <li className="p-4 hover:text-2xl cursor-pointer ease-in-out duration-200 drop-shadow-md">Home</li>

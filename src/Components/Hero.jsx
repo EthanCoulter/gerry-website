@@ -3,9 +3,9 @@ import Jerry from '../assets/jerry.jpg';
 
 const Hero = () => {
     return (
-        <div className="flex flex-col justify-between py-20 bg-slate-400 px-2 md:flex-row ">
+        <div className="flex flex-col items-center justify-between py-10 bg-slate-400 px-2 tablet:flex-row ">
             <div className="">
-                <img className="max-w-[375px] phonelg:max-w-[425px] " src={Jerry} alt="Jerry" />
+                <img className=" max-w-[375px] phonelg:max-w-[425px] pb-10 " src={Jerry} alt="Jerry" />
             </div>
             <div className="flex flex-col items-center max-w-[600px] align-center mx-auto px-2 bg-slate-500 tablet:max-h-[269.23px]">
                 <h1 className="text-3xl pb-4 font-bold underline text-white">About Gerald</h1>
