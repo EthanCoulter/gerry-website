@@ -3,9 +3,9 @@ import Typed from "react-typed";
 
 const Header = () => {
   return (
-    <div className="flex flex-col items-center h-[100%] py-5">
-      <h1 className="text-6xl font-bold pb-5">Gerald Walsh</h1>
-      <h3 className=" text-2xl mb-6 w-[800px]">
+    <div className="flex flex-col justify-center items-center h-screen  bg-main-brand-col">
+      <h1 className="text-5xl font-bold pb-5 text-white">Gerald Walsh</h1>
+      <h3 className=" items-center text-md align-center text-center mb-6 w-[vw] mx-2 text-white">
         Supporting clients to make the next step towards a life that is{" "}
         <span className="uppercase font-bold">
           <Typed
@@ -17,7 +17,7 @@ const Header = () => {
         </span>
       </h3>
 
-      <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+      <button className="bg-dark-accent hover:bg-dark-shades text-white font-semibold hover:text-white py-2 px-4 border border-dark-shade rounded">
         Book Now
       </button>
     </div>

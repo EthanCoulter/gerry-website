@@ -3,7 +3,7 @@ import Jerry from '../assets/jerry.jpg';
 
 const Hero = () => {
     return (
-        <div className="flex flex-col justify-between py-20 bg-slate-400 px-2 md:flex-row ">
+        <div className="flex flex-col justify-between py-20 bg-light-shade px-2 md:flex-row ">
             <div className="">
                 <img className="max-w-[375px] phonelg:max-w-[425px] " src={Jerry} alt="Jerry" />
             </div>
