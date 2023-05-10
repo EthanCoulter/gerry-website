@@ -16,7 +16,8 @@ module.exports = {
         'light-shade': '#D2DAF0',
         'dark-shade': '#3D2622',
         'light-accent': '#9CACBB',
-        'dark-accent': '#8B77A5' 
+        'dark-accent': '#8B77A5',
+        'hover-nav': '#4f5c86'
       }
     },
   },
