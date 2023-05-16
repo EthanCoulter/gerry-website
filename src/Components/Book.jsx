@@ -3,7 +3,7 @@ import gerryBook from "../assets/gerryBook.jpg"
 
 const Book = () => {
     return (
-        <div className="flex flex-col-reverse py-10 justify-between items-center mx-2 md:flex-row">
+        <div id="abc" className="flex flex-col-reverse justify-between items-center bg-light-shade md:flex-row">
             <div className="flex flex-col items-center">
                 <div className="flex flex-col items-center max-w-[400px] pb-10 bg-gray-400">
                     <p className="pb-5 m-2"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam eos blanditiis, perferendis nam fuga temporibus laudantium ratione consectetur ipsa possimus excepturi, error quos consequatur iusto, quasi fugiat itaque doloremque! Vel?
