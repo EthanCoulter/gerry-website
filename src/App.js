@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 import Book from './components/Book';
 import Header from './components/Header';
 import Testimonials from './components/Testimonials';
-import Bookapt from './components/Bookapt';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Hero/>
       <Book/>
       <Testimonials/>
-      <Bookapt/>
+      <Contact/>
     </div>
   );
 }
