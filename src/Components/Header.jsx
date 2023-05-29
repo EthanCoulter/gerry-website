@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 
 const Header = () => {
   return (
@@ -8,14 +8,14 @@ const Header = () => {
       <span className="pb-5 text-white text-[4vw] mt-0">MSW, RSW</span>
       <h3 className=" items-center text-md align-center text-center mb-6 w-[vw] mx-2 text-white tablet:text-xl laptop:text-2xl">
         Supporting clients to make the next step towards a life that is{""}
-        <span className="uppercase font-bold">
+        {/* <span className="uppercase font-bold">
           <Typed
             strings={[" Happier", " Healthier"]}
             typeSpeed={100}
             backSpeed={50}
             loop
           ></Typed>
-        </span>
+        </span> */}
       </h3>
       
 
