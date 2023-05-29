@@ -18,7 +18,7 @@ export const Contact = () => {
 
     return (
         <div id="contact" className="bg-light-shade py-5">
-            <div className="flex flex-col justify-start w-vw mx-5 my-5 px-3 pb-5 h-vh bg-main-brand-col rounded-lg tablet:rounded-none">
+            <div className="flex flex-col justify-start mx-5 my-5 px-3 pb-5 bg-main-brand-col rounded-lg ">
                 <h1 className="text-3xl pb-4 font-bold underline text-center text-white">Contact Me</h1>
                 <div className="flex flex-col justify-start">
                     <form className="flex flex-col" ref={form} onSubmit={sendEmail}>

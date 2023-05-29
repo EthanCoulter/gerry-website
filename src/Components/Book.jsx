@@ -14,9 +14,8 @@ const Book = () => {
                 
             </div>
 
-            <div>
-                <img className="rounded-t-lg tablet:rounded-t-none" src={gerryBook} alt="" />
-            </div>
+            
+                <img className="rounded-t-lg w-full tablet:rounded-t-none tablet:w-[100%]" src={gerryBook} alt="" />
 
         </div>
     )
