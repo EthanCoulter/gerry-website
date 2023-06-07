@@ -17,6 +17,7 @@ const Navbar = () => {
                 <li className="p-4 hover:bg-hover-nav  rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md" ><a href="#home" >Home</a></li>
                 <li className="p-4 hover:bg-hover-nav rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md"><a href="#services">Services</a></li>
                 <li className="p-4 hover:bg-hover-nav rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md">Testimonials</li>
+                <li className="p-4 hover:bg-hover-nav rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md"><a href="#abc">Textbook</a></li>
                 <li className="p-4 hover:bg-hover-nav rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md"><a href="#contact">Contact</a></li>
             </ul>
             <div onClick={handleNav} className='block tablet:hidden'>
@@ -32,6 +33,7 @@ const Navbar = () => {
                     <li className="p-4 border-b border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}><a href="#home" >Home</a></li>
                     <li className="p-4 border-b border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}><a href="#services" >Services</a></li>
                     <li className="p-4 border-b border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}>Testimonials</li>
+                    <li className="p-4 border-b border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}><a href="#abc" >Textbook</a></li>
                     <li className="p-4 border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}><a href="#contact">Contact</a></li>
                 </ul>
             </div>
