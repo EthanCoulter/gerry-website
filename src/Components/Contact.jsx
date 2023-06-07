@@ -12,7 +12,6 @@ export const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 if (result.status === 200) {
-                    // Toast.getInstance(document.getElementById('toastSuccess')).show();
                     alert('Email sent successfully')
                 }
 
@@ -25,7 +24,7 @@ export const Contact = () => {
     return (
         <div id="contact" className=" bg-light-shade py-5 tablet:justify-center tablet:flex">
             <div className="flex flex-col justify-start mx-5 my-0 py-5 px-3 bg-main-brand-col rounded-lg tablet:w-[500px]">
-                <h1 className="text-3xl pb-4 font-bold underline text-center text-white">Contact Me</h1>
+                <h1 className="text-3xl pb-4 font-serif text-center text-white">Contact Me</h1>
                 <div className="flex flex-col justify-start">
                     <form className="flex flex-col" ref={form} onSubmit={sendEmail}>
                         <div className="flex flex-col   py-2">
