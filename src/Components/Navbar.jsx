@@ -11,12 +11,12 @@ const Navbar = () => {
     };
 
     return (
-        <div className=" flex justify-between items-center h-24 mx-auto px-4 w-full fixed text-white bg-main-brand-col">
+        <div className=" flex justify-between items-center h-24 mx-auto px-4 w-full fixed text-white bg-main-brand-col z-10">
             <h1 className="w-full drop-shadow-lg text-xl md:text-2xl lg:text-3xl font-bold text-white pointer-events-none font-serif ">G.W Counselling</h1>
             <ul className="hidden text-xl md:flex">
                 <li className="p-4 hover:bg-hover-nav  rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md" ><a href="#home" >Home</a></li>
                 <li className="p-4 hover:bg-hover-nav rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md"><a href="#services">Services</a></li>
-                <li className="p-4 hover:bg-hover-nav rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md">Testimonials</li>
+                {/* <li className="p-4 hover:bg-hover-nav rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md">Testimonials</li> */}
                 <li className="p-4 hover:bg-hover-nav rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md"><a href="#abc">Textbook</a></li>
                 <li className="p-4 hover:bg-hover-nav rounded-full cursor-pointer ease-in-out duration-200 drop-shadow-md"><a href="#contact">Contact</a></li>
             </ul>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 <ul className="p-4 uppercase">
                     <li className="p-4 border-b border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}><a href="#home" >Home</a></li>
                     <li className="p-4 border-b border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}><a href="#services" >Services</a></li>
-                    <li className="p-4 border-b border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}>Testimonials</li>
+                    {/* <li className="p-4 border-b border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}>Testimonials</li> */}
                     <li className="p-4 border-b border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}><a href="#abc" >Textbook</a></li>
                     <li className="p-4 border-gray-600 hover:bg-gray-800 cursor-pointer ease-in-out duration-200" onClick={handleNav}><a href="#contact">Contact</a></li>
                 </ul>
