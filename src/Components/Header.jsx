@@ -6,7 +6,7 @@ const Header = () => {
     <div id="home" className="flex flex-col justify-center items-center h-screen  bg-main-brand-col">
       <h1 className="text-[10vw] font-serif font-bold text-white -mb-[1vh] tablet:-mb-[2vh] tablet:text-[8vw]  ">Gerald Walsh</h1>
       <span className="pb-5 text-white text-[4vw] font-serif tablet:text-[3vw] tablet:mb-10">MSW, RSW</span>
-      <h3 className=" items-center text-md align-center text-center mb-6 w-[vw] mx-2  text-white tablet:text-xl laptop:text-2xl">
+      <h3 className=" items-center text-md align-center text-center mb-6 w-[vw] mx-2  text-white tablet:text-xl laptop:text-3xl">
         Supporting clients to make the next step towards a life that is {""}
         <span className=" ">
           <Typed
