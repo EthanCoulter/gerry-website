@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from 'react-hot-toast'
 
 
 export const Contact = () => {
@@ -12,11 +13,14 @@ export const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 if (result.status === 200) {
-                    alert('Email sent successfully')
+                    toast.success("Email Sent")
+                    
+                } else {
+                    toast.error("Something went wrong");
                 }
 
             }, (error) => {
-                console.log(error.text);
+                toast.error("Something went wrong");
             });
         form.current.reset()
     }
@@ -43,8 +47,10 @@ export const Contact = () => {
                         <button className="bg-transparent hover:bg-dark-accent text-white font-semibold mt-3 justify-center hover:text-white py-2 px-4 border border-dark-shade rounded ease-in-out duration-200">Send Email</button>
 
                     </form>
+                   
                 </div>
             </div>
+            
         </div>
     )
 
