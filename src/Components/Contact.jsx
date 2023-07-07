@@ -27,6 +27,9 @@ export const Contact = () => {
 
     return (
         <div id="contact" className=" bg-light-shade py-5 tablet:justify-center  tablet:flex pt-5">
+            <div className=" tablet:items-center tablet:bg-light-accent tablet:drop-shadow-lg rounded-xl tablet:p-10  tablet:flex-row tablet:h-[vh]">
+
+           
             <div className="flex flex-col justify-start mx-5 my-0 py-5 px-5  bg-main-brand-col rounded-lg tablet:drop-shadow-lg tablet:w-[500px]">
                 <h1 className="text-4xl pb-4 font-serif text-center text-white">Contact Me</h1>
                 <div className="flex flex-col justify-start">
@@ -50,7 +53,7 @@ export const Contact = () => {
                    
                 </div>
             </div>
-            
+            </div>
         </div>
     )
 
