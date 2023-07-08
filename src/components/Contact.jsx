@@ -8,8 +8,7 @@ export const Contact = () => {
 
     function sendEmail(e) {
         e.preventDefault();
-
-        emailjs.sendForm('gmail', 'contact_form', form.current, process.env.EMAILJSKEY)
+        emailjs.sendForm('gmail', 'contact_form', form.current, '8BTVcPaKfJpeKnfAA')
             .then((result) => {
                 console.log(result.text);
                 if (result.status === 200) {
